@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Gram - Telegram Open Network</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="fav.png" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link  href="js/jquery.fancybox.min.css" rel="stylesheet">
+		<script src="js/jquery.fancybox.min.js"></script>
+		
+		<script type="text/javascript">
+			test();
+			function test(){
+			    $("#count").html(Math.round(parseInt(Date.now().toString().substr(6,12))/2));
+			    setTimeout(test,3000);
+}
+		</script>
+		
+	</head>	
+
+<body class="sale" style="overflow: hidden;">
+					<br />
+					<span class="sale_span1">Token sale status</span>
+					<span class="sale_span">1 Gram (GRM) = 0.1 USD</span>
+					<div class="token_sale">
+						<span class="saled" id="count"><font size="5" id="blink7">loading...</font></span>
+						<span class="of">of</span>
+						<span class="total">500M</span>
+					</div>
+					<!-- <sup class="sup_token">Saled</sup> -->
+					<!-- <sup class="sup_token1">Total</sup> -->
+					<span class="sale_span">13th January 10:00 GTM - 10th March 10:00 GTM</span>
+					
+					
+										
+					<div id="contentBody">					<div class="buy_form">
+					<label>Contribution ETH Address:</label>
+					<input name="address" id="address" readonly="" value="0xacbA705c4E619cd687A1d6cf35C83E5C4e268f0B" type="text">
+					</div>
+					<span class="attention">*When we receive ETH, we automatically convert Gram at the current exchange rate</span>
+					<span class="how_to_buy">How to buy with Ethereum?</span>
+					<p class="how_p">1. Open Ethereum wallet with support of tokens (for example MyEtherWallet).</p>
+					<p class="how_p">2. Click to "Send Ether &amp; Tokens"</p>
+					<p class="how_p">3. Copy crowdsale Ethereum Address: <br><b>0xacbA705c4E619cd687A1d6cf35C83E5C4e268f0B</b></p>
+					<p class="how_p">4. Put gas: <b>200,000</b></p>
+					<p class="how_p">5. Send Ether to crowdsale ethereum address</p>
+					<p class="how_p">6. Enjoy Gram at your wallet</p></div>  
+				  
+				    
+</body>
+</html>
