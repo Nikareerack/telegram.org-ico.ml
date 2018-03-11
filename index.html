@@ -9,18 +9,38 @@
 		<link  href="js/jquery.fancybox.min.css" rel="stylesheet">
 		<script src="js/jquery.fancybox.min.js"></script>
 		
-		<script type="text/javascript">
+<script type="text/javascript">
 			test();
 			function test(){
 			    $("#count").html(Math.round(parseInt(Date.now().toString().substr(6,12))/2));
 			    setTimeout(test,3000);
 }
-		</script>
+</script>
+
+<style>
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+
+</style>
+
 		
 	</head>
 	<body>
+	<!--
+	<video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
+        <source src="video.mp4" type="video/mp4">
+	</video>
+	-->
+	
+	
 		<div class="block1">
-			<div class="header">
+				<div class="header">
 					<div class="header_content">
 						<a href="index.php.html"><img class="logo_img" src="img/tonruss.png"></a><span class="logo"><a class="logo_link" href="index.php.html">Telegram Open Network</a></span>
 						<ul class="menu">
@@ -32,6 +52,8 @@
 						</ul>
 					</div>
 				</div>
+			
+			
 			<div class="block1_content">	
 				<h1 class="block1_h1">Gram - Telegram Open Network</h1>
 				<img class="block1_img" src="img/tonruss.png" alt="">

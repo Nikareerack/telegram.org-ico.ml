@@ -10,10 +10,11 @@ body {
 	min-width: 1160px;
 	min-height: 1000px;
 	background: url("../img/bg5.jpg");
-	background-image: url("../img/bg5.jpg");
+	background-image: url("../img/bg5.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
+	
 }
 
 .block1_content {
